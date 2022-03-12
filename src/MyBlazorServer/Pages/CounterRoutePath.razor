@@ -1,0 +1,27 @@
+@page "/counterpath/{currentCount:int?}"
+
+@*
+
+<p>
+    We can start with a count of 0, or if we pass a parameter on the query string, we can
+    kick off the count wherever we like :)
+    Just change the browser's url to end in ?currentcount={somenumber} and Bob's your uncle.
+</p>
+*@
+<h1>Counter With Path variable</h1>
+
+
+
+<p>Current count: @CurrentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    [Parameter]
+    public int CurrentCount { get; set; } = 0;
+
+    private void IncrementCount()
+    {
+        CurrentCount++;
+    }
+}
