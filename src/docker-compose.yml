@@ -1,9 +1,16 @@
 version: '3.4'
 
 services:
-  myblazorserver:
+  myblazorserver.dotnet5:
     image: ${DOCKER_REGISTRY-}myblazorserver
     build:
       context: .
       dockerfile: MyBlazorServer.Dotnet5/Dockerfile
     container_name: myblazorserver
+
+  myblazorserver.dotnet6:
+    image: ${DOCKER_REGISTRY-}myblazorserverdotnet6
+    build:
+      context: .
+      dockerfile: MyBlazorServer.Dotnet6/Dockerfile
+

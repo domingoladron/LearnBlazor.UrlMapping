@@ -1,7 +1,8 @@
-@page "/counterpath/{currentCount:int?}"
+@page "/counterquerystring"
+@inject NavigationManager NavManager
 
-<h1>Counter With Path variable</h1>
 
+<h1>Counter With Query String</h1>
 
 
 <p>Current count: @CurrentCount</p>
@@ -9,8 +10,11 @@
 <button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
 
 @code {
+
     [Parameter]
+    [SupplyParameterFromQuery(Name = "initialCount")]
     public int CurrentCount { get; set; } = 0;
+
 
     private void IncrementCount()
     {

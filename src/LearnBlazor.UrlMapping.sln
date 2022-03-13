@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlazorServer.Dotnet5", "M
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C80E0376-3BDB-4538-A05B-17DCB994505C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBlazorServer.Dotnet6", "MyBlazorServer.Dotnet6\MyBlazorServer.Dotnet6.csproj", "{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{C80E0376-3BDB-4538-A05B-17DCB994505C}.Release|x64.Build.0 = Release|Any CPU
 		{C80E0376-3BDB-4538-A05B-17DCB994505C}.Release|x86.ActiveCfg = Release|Any CPU
 		{C80E0376-3BDB-4538-A05B-17DCB994505C}.Release|x86.Build.0 = Release|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Debug|x64.Build.0 = Debug|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Debug|x86.Build.0 = Debug|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Release|x64.ActiveCfg = Release|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Release|x64.Build.0 = Release|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Release|x86.ActiveCfg = Release|Any CPU
+		{66359EDE-9BCC-4C5F-ABC1-A70A368A9A92}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

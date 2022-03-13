@@ -1,0 +1,25 @@
+@page "/counterquerystring"
+@using MyBlazorServer.Dotnet5.Extensions
+@inject NavigationManager NavManager
+
+
+<h1>Counter With Query String</h1>
+
+
+<p>Current count: @CurrentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    public int CurrentCount = 0;
+
+    protected override void OnInitialized()
+    {
+        NavManager.TryGetQueryString<int>("initialCount", out CurrentCount);
+    }
+
+    private void IncrementCount()
+    {
+        CurrentCount++;
+    }
+}

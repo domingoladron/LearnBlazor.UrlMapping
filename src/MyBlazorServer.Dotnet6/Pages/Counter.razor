@@ -1,0 +1,27 @@
+@page "/counter"
+
+@*<h1>Counter With Query String variable</h1>
+
+<p>
+    We can start with a count of 0, or if we pass a parameter on the query string, we can
+    kick off the count wherever we like :)
+    Just change the browser's url to end in ?currentcount={somenumber} and Bob's your uncle.
+</p>
+*@
+<h1>Counter</h1>
+
+
+
+<p>Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}
