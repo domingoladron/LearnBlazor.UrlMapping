@@ -5,5 +5,5 @@ services:
     image: ${DOCKER_REGISTRY-}myblazorserver
     build:
       context: .
-      dockerfile: MyBlazorServer/Dockerfile
+      dockerfile: MyBlazorServer.Dotnet5/Dockerfile
     container_name: myblazorserver

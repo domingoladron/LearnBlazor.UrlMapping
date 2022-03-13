@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlazorServer", "MyBlazorServer\MyBlazorServer.csproj", "{8A363A6F-B1F9-4208-9E07-CD552E36BA3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlazorServer.Dotnet5", "MyBlazorServer.Dotnet5\MyBlazorServer.Dotnet5.csproj", "{8A363A6F-B1F9-4208-9E07-CD552E36BA3F}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C80E0376-3BDB-4538-A05B-17DCB994505C}"
 EndProject
